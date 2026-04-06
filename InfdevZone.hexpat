@@ -1,5 +1,6 @@
 #pragma author DexrnZacAttack
 #pragma description Minecraft Infdev 20100624 Zone File
+#pragma repo https://github.com/Team-Lodestone/ImHex-Patterns/tree/main
 
 #pragma magic [13 73 70 00] @ 0x00
 #pragma endian big

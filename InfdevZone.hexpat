@@ -1,6 +1,7 @@
 #pragma author DexrnZacAttack
 #pragma description Minecraft Infdev 20100624 Zone File
 #pragma repo https://github.com/Team-Lodestone/ImHex-Patterns
+#pragma version 1.0.0
 
 #pragma magic [13 73 70 00] @ 0x00
 #pragma endian big
@@ -131,4 +132,9 @@ namespace InfdevZone {
     }
 }
 
+
+
+
+#ifndef INF624_ZONE_USE_LIB
 InfdevZone::ZoneFile::ZoneFile zone @ 0x00;
+#endif
